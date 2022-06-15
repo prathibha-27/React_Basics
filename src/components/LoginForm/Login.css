@@ -1,0 +1,67 @@
+.form-page {
+  box-shadow: 5px 10px 10px 5px #aaaaaa;
+  width: 320px;
+  height: auto;
+  /* display: flex;
+  justify-content: center; */
+  margin: auto;
+  margin-top: 60px;
+  /* padding: 20px 20px; */
+  display: flex;
+  justify-content: center;
+}
+
+.form-page-fields input {
+  height: 30px;
+  width: 230px;
+  margin-bottom: 10px;
+  display: block;
+  border: none;
+  background-color: #eee;
+}
+
+.form-page-fields-para {
+  font-size: 12px;
+  width: 230px;
+  color: red;
+}
+input:focus {
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+hr {
+  opacity: 50%;
+}
+
+.btn {
+  padding: 10px 10px 3px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  margin: auto;
+}
+button {
+  border-radius: 10px;
+  border-color: #aaaaaa;
+}
+
+.btn :hover {
+  background-color: darkcyan;
+  cursor: pointer;
+  color: #eee;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: blue;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.links:hover {
+  color: darkcyan;
+}

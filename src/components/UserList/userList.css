@@ -1,0 +1,39 @@
+.user-btn {
+  width: 90px;
+  padding: 1px 6px;
+  margin-top: 10px;
+  height: 40px;
+  text-align: center;
+}
+
+.user-btn:hover {
+  background-color: darkcyan;
+  cursor: pointer;
+  color: #eee;
+}
+
+.user {
+  box-shadow: 5px 10px 10px 5px #aaaa;
+  width: 260px;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+  padding: 30px 40px;
+  font-size: 10px;
+}
+.user-link {
+  font-size: 16px;
+  text-decoration: none;
+  color: blue;
+  padding-top: 20px;
+}
+
+.user-link:hover {
+  color: darkcyan;
+}
+
+.user-actions {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
